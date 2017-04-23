@@ -8,7 +8,7 @@ QuickRest is designed to help build a rest request in the fastest way possible.
 
 As an example, here is the most basic rest request achievable with quickrest:
 
-``
+```
 using QuickRest
 Request r = new Request("http://www.ExampleWebsite.com");
 r.Send();
