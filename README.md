@@ -2,12 +2,22 @@
 
 The Simplest and quickest way to create and send REST Requests.
 
-Sending a Rest request is as simple as typing:
+## Getting Started
 
-QuickRest.Response r = new QuickRest.Response("http://www.######.com");
+QuickRest is designed to help build a rest request in the fastest way possible.
+As an example, here is the most basic rest request achievable with quickrest:
+
+QuickRest.Request r = new QuickRest.Request("http://www.ExampleWebsite.com");
 
 r.Send();
 
 and that's it!
 
-Of course You could add other parameters and features.
+## Notes
+  - By default QuickRest uses GET as the method of the request.
+
+
+## ChangeLog
+
+  Version *1.0*
+    QuickRest First Version
