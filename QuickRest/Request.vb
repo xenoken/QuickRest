@@ -288,7 +288,7 @@ Public Class Request
     End Function
 
 
-    Public Event OnResponse(ByVal sender As Request, ByVal response As Response)
+    Public Event OnResponse(ByVal request As Request, ByVal response As Response)
 
 
 

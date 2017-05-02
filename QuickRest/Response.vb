@@ -1,4 +1,5 @@
 ﻿Imports System.Net
+
 Public Class Response
 
     Private _response As HttpWebResponse
