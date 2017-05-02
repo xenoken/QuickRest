@@ -45,6 +45,7 @@ public void OnResponseCallback(Request _req,Response _resp)
 
 ## Notes
   - By default QuickRest uses GET as the method of the request.
+  - QuickRest targets .NET Framework 2.0.
 
 
 ## ChangeLog
