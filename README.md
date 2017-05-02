@@ -19,9 +19,9 @@ OK... but how do I get an answer?
 
 With QuickRest, that's easy too.
 
-the Request.Send() is an asynchronus method, and will not block the program flow.
+Request.Send() is an asynchronus method, and will not block the program flow.
 
-To get an answer, subscribe to the *OnResponse* event of a Request instance and wait for the response to arrive.
+To get an answer, subscribe to the *OnResponse* event of a request instance before sending it, and wait for the response to arrive.
 
 It is that simple!
 
