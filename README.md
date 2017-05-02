@@ -1,4 +1,5 @@
-# QuickRest
+# QuickRest [![Build status](https://ci.appveyor.com/api/projects/status/h762wn0j57f5wvyx?svg=true)](https://ci.appveyor.com/project/xenoken/quickrest)
+
 
 The simplest and quickest way to build and send REST requests.
 
