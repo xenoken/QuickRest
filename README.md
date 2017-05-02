@@ -4,7 +4,7 @@ The simplest and quickest way to build and send REST requests.
 
 ## Getting Started
 
-QuickRest is designed to help in building rest requests in the fastest way possible.
+QuickRest is designed to allow developers build REST request very easily.
 
 As an example, here is the most basic REST request achievable with QuickRest:
 
@@ -15,13 +15,13 @@ r.Send();
 ```
 and that's it! Your request has been sent successfully! Yes!
 
-OK... but how do I get an answer?
+OK... but how do I get a response to my request?
 
 With QuickRest, that's easy too.
 
 Request.Send() is an asynchronus method, and will not block the program flow.
 
-To get an answer, subscribe to the *OnResponse* event of a request instance before sending it, and wait for the response to arrive.
+To get a response, subscribe to the *OnResponse* event of a request instance before sending it, and wait for the response to arrive.
 
 It is that simple!
 
@@ -44,7 +44,7 @@ public void OnResponseCallback(Request _req,Response _resp)
 ```
 
 ## Notes
-  - By default QuickRest uses GET as the method of the request.
+  - By default, QuickRest uses the GET method for requests.
   - QuickRest targets .NET Framework 2.0.
 
 
