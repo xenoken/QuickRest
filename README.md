@@ -6,7 +6,7 @@ The simplest and quickest way to build and send REST requests.
 
 QuickRest is designed to help in building rest requests in the fastest way possible.
 
-As an example, here is the most basic rest request achievable with quickrest:
+As an example, here is the most basic REST request achievable with QuickRest:
 
 ```
 using QuickRest
