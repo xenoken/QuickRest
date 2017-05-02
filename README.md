@@ -1,6 +1,6 @@
 # QuickRest
 
-The Simplest and quickest way to create and send REST requests.
+The simplest and quickest way to build and send REST requests.
 
 ## Getting Started
 
@@ -42,7 +42,6 @@ public void OnResponseCallback(Request _req,Response _resp)
 
 
 ```
-
 
 ## Notes
   - By default QuickRest uses GET as the method of the request.
