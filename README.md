@@ -26,7 +26,7 @@ To get a response, subscribe to the *OnResponse* event of a request instance bef
 
 It is that simple!
 
-```
+```cs
 using QuickRest
 Request r = new Request("http://www.ExampleWebsite.com");
 
@@ -35,13 +35,10 @@ r.OnResponse += OnResponseCallback;
 
 r.Send();
 
-...
-public void OnResponseCallback(Request _req,Response _resp)
+public void OnResponseCallback(Request _request,Response _response)
 {
-  //your_code_here
+  // some_code_here...
 }
-
-
 ```
 
 ## Notes
