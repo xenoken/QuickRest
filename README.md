@@ -1,6 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6d1e128f286d452cbbeba5d25795e3a4)](https://app.codacy.com/app/xenoken/QuickRest?utm_source=github.com&utm_medium=referral&utm_content=xenoken/QuickRest&utm_campaign=Badge_Grade_Dashboard)
-# QuickRest [![Build status](https://ci.appveyor.com/api/projects/status/h762wn0j57f5wvyx?svg=true)](https://ci.appveyor.com/project/xenoken/quickrest)
-
+# QuickRest [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6d1e128f286d452cbbeba5d25795e3a4)](https://app.codacy.com/app/xenoken/QuickRest?utm_source=github.com&utm_medium=referral&utm_content=xenoken/QuickRest&utm_campaign=Badge_Grade_Dashboard)[![Build status](https://ci.appveyor.com/api/projects/status/h762wn0j57f5wvyx?svg=true)](https://ci.appveyor.com/project/xenoken/quickrest)
 
 The simplest and quickest way to build and send REST requests.
 
